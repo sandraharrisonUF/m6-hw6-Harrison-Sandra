@@ -10,6 +10,7 @@ header {
     background-color: white;
     border-bottom: 2px solid #dcd5e7;
     padding: 25px 0 0;
+    display: flex;
 }
 .container {
     padding: 25px 0 0;
@@ -22,7 +23,6 @@ header .box-1 {
     height: 50px;
 }
 header .box-2 {
-    float: right;
     margin-top: -35px;
 }
 header .box-1 h1 {
@@ -32,11 +32,14 @@ header .box-1 h1 {
     text-align: center;
     padding-top: 15px;
 }
+main.container {
+    display:flex;
+}
 .box-3 {
     background-color: white;
     width: 60%;
-    float: left;
     margin-bottom: 25px;
+    padding: 20px;
 }
 h2 {
     font-size: medium;
@@ -47,7 +50,6 @@ h2 {
 .box-3 img {
     padding: 10px;
     text-overflow: normal;
-    float: left;
 }
 p {
     font-size: small;
@@ -60,7 +62,7 @@ p {
     align-items: center;
     padding: 20px;
     width: 25%;
-    float: right;
+    height: 20%;
     text-align: center;
 }
 h3 {
