@@ -93,6 +93,10 @@ footer {
     border-top: 2px solid purple;
     clear: both;
     padding: 25px 0;
+    margin-top: 2%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 .copy {
     padding-top: 15px;
