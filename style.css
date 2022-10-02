@@ -2,20 +2,27 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
 }
+nav, h2, p, h3, footer {
+    color: purple;
+}
+header, h2, h3 {
+    border-bottom: 2px solid #dcd5e7;
+}
+header, .box-3, .box-4 {
+    background-color: white;
+}
 body {
     background-color: #f6f3f9;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23dcd5e7' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 header {
-    background-color: white;
-    border-bottom: 2px solid #dcd5e7;
     padding: 25px 0 0;
-    display: flex;
 }
 .container {
     padding: 25px 0 0;
     max-width: 900px;
     margin: 0 auto;
+    display: flex;
 }
 header .box-1 {
     background-color: purple;
@@ -23,7 +30,9 @@ header .box-1 {
     height: 50px;
 }
 header .box-2 {
-    margin-top: -35px;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-bottom: 15px;
 }
 header .box-1 h1 {
     font-size: medium;
@@ -36,7 +45,6 @@ main.container {
     display: flex;
 }
 .box-3 {
-    background-color: white;
     width: 60%;
     margin-bottom: 25px;
     padding: 20px;
@@ -44,35 +52,31 @@ main.container {
 }
 h2 {
     font-size: medium;
-    border-bottom: 2px solid #dcd5e7;
-    color: purple;
     padding-bottom: 5px;
 }
 .box-3 img {
     padding: 10px;
     text-overflow: normal;
+    float: left;
 }
 p {
     font-size: small;
-    color: purple;
     text-indent: 50px;
     padding-top: 5px;
 }
 .box-4 {
-    background-color: white;
     align-items: center;
     padding: 20px;
     width: 25%;
     height: 20%;
     text-align: center;
+    margin-left: auto;
 }
 h3 {
     font-size: small;
     font-weight: lighter;
     text-align: center;
-    color: purple;
     padding-bottom: 5px;
-    border-bottom: 2px solid #dcd5e7;
 }
 .box-4 .column {
     display: inline-block;
@@ -85,7 +89,6 @@ h3 {
 footer {
     background-color: #dcd5e7;
     font-size: small;
-    color: purple;
     text-align: center;
     border-top: 2px solid purple;
     clear: both;
