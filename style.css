@@ -2,7 +2,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
 }
-nav, h2, p, h3, footer {
+header .box-2, h2, p, h3, footer {
     color: purple;
 }
 header, h2, h3 {
